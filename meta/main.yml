@@ -3,6 +3,7 @@
 dependencies: []
 
 galaxy_info:
+  role_name: 'telegraf'
   author: 'Adfinis SyGroup AG'
   description: 'Install and configure influxdata telegraf'
   company: 'Adfinis SyGroup AG'
