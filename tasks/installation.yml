@@ -11,7 +11,7 @@
 
 - name: install apt repository
   apt_repository:
-    repo: 'deb {{ telegraf_repo_baseurl }}/{{ ansible_distribution | lower }}/ {{ ansible_distribution_release }} stable'
+    repo: 'deb {{ telegraf_repo_baseurl }}/{{ ansible_distribution | lower }}/ {{ ansible_distribution_release }} stable' # noqa 204
     state: present
   tags:
     - 'role::telegraf'
